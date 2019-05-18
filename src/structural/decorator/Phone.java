@@ -1,4 +1,6 @@
 package structural.decorator;
 
-public class Phone {
+public interface Phone {
+
+    public void printModel();
 }
