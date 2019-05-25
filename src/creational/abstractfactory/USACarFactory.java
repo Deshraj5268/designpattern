@@ -1,7 +1,7 @@
 package creational.abstractfactory;
 
 import constants.AbstractFactoryConstants;
-import exception.AbstractFactoryException;
+import exception.ApplicationException;
 
 public class USACarFactory {
 
@@ -9,7 +9,7 @@ public class USACarFactory {
 
     }
 
-    public static Car buildCar(CarType model) throws AbstractFactoryException{
+    public static Car buildCar(CarType model) throws ApplicationException {
 
         Car car = null;
 
@@ -24,7 +24,7 @@ public class USACarFactory {
                 break;
 
             default:
-                throw new AbstractFactoryException(AbstractFactoryConstants.MODEL_DOES_NOT_EXISTS);
+                throw new ApplicationException(AbstractFactoryConstants.MODEL_DOES_NOT_EXISTS);
         }
         return car;
     }
