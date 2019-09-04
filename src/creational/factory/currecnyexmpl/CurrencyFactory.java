@@ -12,6 +12,9 @@ public class CurrencyFactory {
         }
     }
 
+    private CurrencyFactory(){}
+
+
     public static void main(String[] args) {
 
         try {
