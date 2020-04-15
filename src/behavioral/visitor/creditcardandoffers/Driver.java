@@ -11,7 +11,7 @@ public class Driver {
 
     public static void main(String[] args) {
 
-        OfferVisitor hotelOfferVisitor= new HotelOfferVisitor();
+        OfferVisitor hotelOfferVisitor= new HotelOfferVisitor(); //operations
 
         OfferVisitor gasOfferVisitor= new GasOfferVisitor();
 
