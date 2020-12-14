@@ -2,19 +2,19 @@ package creational.builder;
 
 public class User {
 
-    private  String firstName;
-    private  String lastName;
-    private  int age;
-    private  String phone;
-    private  String address;
+    private String firstName;
+    private String lastName;
+    private int age;
+    private String phone;
+    private String address;
 
-   /* private User(UserBuilder builder){
+    public User(UserBuilder builder){
         this.firstName = builder.firstName;
         this.lastName = builder.lastName;
         this.age = builder.age;
         this.phone = builder.phone;
         this.address = builder.address;
-    }*/
+    }
 
    public User(){}
 
@@ -51,7 +51,7 @@ public class User {
         return this.firstName + this.lastName + this.phone + this.age + this.address;
     }
 
-    /*public static class UserBuilder{
+    public static class UserBuilder{
 
         private  String firstName;
         private  String lastName;
@@ -59,10 +59,10 @@ public class User {
         private String phone;
         private String address;
 
-       *//* public UserBuilder(String firstName,String lastName){
+       public UserBuilder(String firstName,String lastName){
             this.firstName = firstName;
             this.lastName = lastName;
-        }*//*
+        }
 
        public UserBuilder firstName(String firstName){
            this.firstName = firstName;
@@ -93,5 +93,5 @@ public class User {
         public User build(){
             return new User(this);
         }
-    }*/
+    }
 }

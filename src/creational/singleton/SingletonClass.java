@@ -18,7 +18,7 @@ public class SingletonClass implements Cloneable,Serializable {
     public static SingletonClass getSingletonObject() throws Exception{
         if (singletonClass == null) {
             //double locking to prevent from multi threaded evm
-            synchronized (SingletonClass.class) {
+            synchronized (SingletonClass.class) {//class level locking
                 if (singletonClass == null) {
                     singletonClass = new SingletonClass(); // lazy loading
                 }

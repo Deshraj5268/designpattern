@@ -5,6 +5,8 @@ import exception.ApplicationException;
 import java.util.ArrayList;
 import java.util.List;
 
+
+//protection policy
 public class ProxyInternet implements Internet {
 
     private Internet internet = new RealInternet();
