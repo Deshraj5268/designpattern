@@ -7,9 +7,9 @@ import java.util.List;
 
 public class ConcreteObservableSubject implements ObservableSubject {
 
-    private List<Observer> listOfObserver = new LinkedList<>();
+    private List<Observer> listOfObserver = new LinkedList<>(); // we can use CopyOnWriteArrayList in Multithreaded evmHashmap
     private String productName;
-    private String availability;
+    private String availability; // should be some cleared availability think about newsPaper
 
     public ConcreteObservableSubject(String productName, String availability) {
         this.productName = productName;
