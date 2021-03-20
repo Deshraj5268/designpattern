@@ -5,7 +5,7 @@ import java.io.Serializable;
 
 public class SingletonClass implements Cloneable,Serializable {
 
-    private volatile static SingletonClass singletonClass; //changes visible to everywhere
+    private  static volatile  SingletonClass singletonClass; //changes visible to everywhere
 
     private SingletonClass()throws Exception{
         if(singletonClass == null){
