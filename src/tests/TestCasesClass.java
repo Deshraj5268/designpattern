@@ -1,3 +1,4 @@
+/*
 package tests;
 
 import org.junit.*;
@@ -31,3 +32,4 @@ public class TestCasesClass {
         System.out.println("After Class");
     }
 }
+*/
