@@ -1,0 +1,22 @@
+
+Ex:
+1. Ecommerce notify
+2. Cricbuzz cricket  related info
+3. Weather work station notifier
+4. News notifier
+
+
+
+Comparison With Other Similar Design Patterns
+->Chain of Responsibility, Command, Mediator, and Observer are all methods for decoupling senders and
+receivers, but each has its own set of trade-offs.
+->A sender request is passed through a chain of possible receivers using the Chain of Responsibility
+-> A sender-receiver relationship with a subclass is generally specified by the command pattern.
+->In Mediator, senders and receivers make implicit references to one another.
+->Observer pattern offers a decoupled interface that enables the configuration of numerous receivers at the time of execution.
+The observer pattern and the mediator pattern are very similar. The distinction is because an Observer object spreads
+communication among objects by incorporating observer and subject objects, but a Mediator object encapsulates interaction
+among different objects.
+
+.A publisher object uses the observer pattern to send information to subscriber objects.
+The proxy pattern, on the other hand, is used to wrap a type of special object with one or several different objects.

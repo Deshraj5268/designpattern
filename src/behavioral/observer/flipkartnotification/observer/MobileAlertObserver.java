@@ -1,10 +1,10 @@
 package behavioral.observer.flipkartnotification.observer;
 
-public class CustomerTwoObserver implements Observer {
+public class MobileAlertObserver implements Observer {
 
     private UserInfo userInfo;
 
-    public CustomerTwoObserver(UserInfo userInfo) {
+    public MobileAlertObserver(UserInfo userInfo) {
         this.userInfo = userInfo;
     }
 
