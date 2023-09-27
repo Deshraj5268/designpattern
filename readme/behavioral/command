@@ -1,0 +1,13 @@
+Client will invoke the encapsulated object with command and which will execute appropriate receiver
+
+Client (set init setup)  ---> Invoker ---> Command ---> Receiver
+
+Eg.
+Client --->      Invoker    ---->       Command ---->      Receiver
+
+Remote AC/TV
+Person         Remote  ---->     button   ----->    AC/TV
+
+Stock broker problem
+
+Users       Broker  ----->      Order(Buy/Sell)  ---> Stock
