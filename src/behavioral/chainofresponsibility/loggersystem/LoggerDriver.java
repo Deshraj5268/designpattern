@@ -8,10 +8,12 @@ import behavioral.chainofresponsibility.loggersystem.processorhandler.LogProcess
 public class LoggerDriver {
 
     public static void main(String[] args) {
+
+        //preparing chain ..
         LogProcessor logger = new InfoLogProcessor(new DebugLogProcessor(new ErrorLogProcessor(null)));
 
         logger.log(LogLevel.DEBUG, "debug log line");
         logger.log(LogLevel.ERROR, "Error log line");
-        logger.log(null, "Error log line");
+        logger.log(null, "Error log line"); // we should check here itself
     }
 }
