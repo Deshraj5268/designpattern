@@ -5,19 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8b10311e-7700-467a-8b61-ee0281420389" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/behavioral/command/CommandDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioral/command/filesystemexample/FileSystemClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioral/command/filesystemexample/fileinvoker/FileInvoker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioral/command/filesystemexample/filesystemcommand/CloseCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioral/command/filesystemexample/filesystemcommand/FileSystemICommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioral/command/filesystemexample/filesystemcommand/OpenCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioral/command/filesystemexample/filesystemcommand/WriteCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioral/command/filesystemexample/receiver/FileSystemReceiver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioral/command/filesystemexample/receiver/UnixFileReceiver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioral/command/filesystemexample/receiver/WindowsFileReceiver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme/DesignPattern" beforeDir="false" afterPath="$PROJECT_DIR$/readme/DesignPattern" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/behavioral/chainofresponsibility/loggersystem/LoggerDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/behavioral/chainofresponsibility/loggersystem/LoggerDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioral/statepattern/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioral/statepattern/standard/BasicContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioral/statepattern/standard/IntermediateState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioral/statepattern/standard/StandardStateDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioral/statepattern/standard/StartState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioral/statepattern/standard/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioral/statepattern/standard/TerminalState.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -76,7 +70,7 @@
       <recent name="behavioral.observer.flipkartnotification.observer" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FileSystemClient">
+  <component name="RunManager" selected="Application.StandardStateDriver">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -112,20 +106,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ElectricityBillCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="creational.factorymethod.elctricitybill.ElectricityBillCalculator" />
-      <module name="designpattern" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="creational.factorymethod.elctricitybill.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="FileSystemClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="behavioral.command.filesystemexample.FileSystemClient" />
       <module name="designpattern" />
@@ -147,6 +127,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="behavioral.chainofresponsibility.loggersystem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StandardStateDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="behavioral.statepattern.standard.StandardStateDriver" />
+      <module name="designpattern" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="behavioral.statepattern.standard.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -193,18 +187,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.FileSystemClient" />
+      <item itemvalue="Application.StandardStateDriver" />
       <item itemvalue="Application.DriverHandler" />
       <item itemvalue="Application.LoggerDriver" />
       <item itemvalue="Application.DriverBuilder" />
-      <item itemvalue="Application.ElectricityBillCalculator" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StandardStateDriver" />
         <item itemvalue="Application.FileSystemClient" />
         <item itemvalue="Application.LoggerDriver" />
         <item itemvalue="Application.DriverHandler" />
         <item itemvalue="Application.DriverBuilder" />
-        <item itemvalue="Application.ElectricityBillCalculator" />
       </list>
     </recent_temporary>
   </component>
