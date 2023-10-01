@@ -5,13 +5,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8b10311e-7700-467a-8b61-ee0281420389" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/behavioral/statepattern/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioral/statepattern/standard/BasicContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioral/statepattern/standard/IntermediateState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioral/statepattern/standard/StandardStateDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioral/statepattern/standard/StartState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioral/statepattern/standard/State.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioral/statepattern/standard/TerminalState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioral/statepattern/stateorderpattern/OrderManagerDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioral/statepattern/stateorderpattern/ordermanagement/ContextInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioral/statepattern/stateorderpattern/ordermanagement/OrderContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioral/statepattern/stateorderpattern/ordermanagement/OrderStage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioral/statepattern/stateorderpattern/ordermanagement/Transition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioral/statepattern/stateorderpattern/ordermanagement/action/Action.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioral/statepattern/stateorderpattern/ordermanagement/action/CreateStateAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioral/statepattern/stateorderpattern/ordermanagement/action/DeliveredStateAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioral/statepattern/stateorderpattern/ordermanagement/action/FulfillmentStateAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioral/statepattern/stateorderpattern/ordermanagement/action/PaymentStateAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioral/statepattern/stateorderpattern/ordermanagement/action/ShipmentStateAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioral/statepattern/stateorderpattern/ordermanagement/orderstate/CreatedState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioral/statepattern/stateorderpattern/ordermanagement/orderstate/DeliveredState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioral/statepattern/stateorderpattern/ordermanagement/orderstate/FailedState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioral/statepattern/stateorderpattern/ordermanagement/orderstate/FulfillmentState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioral/statepattern/stateorderpattern/ordermanagement/orderstate/OrderState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioral/statepattern/stateorderpattern/ordermanagement/orderstate/OrderStateFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioral/statepattern/stateorderpattern/ordermanagement/orderstate/PaymentState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioral/statepattern/stateorderpattern/ordermanagement/orderstate/ShipmentState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioral/template/TemplateDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioral/template/designhouse/GlassHouseTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioral/template/designhouse/HouseDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioral/template/designhouse/HouseTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioral/template/designhouse/WoodenHouseTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural/composite/CompositeDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural/composite/filesystem/Directory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural/composite/filesystem/File.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural/composite/filesystem/FileSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural/composite/filesystem/FileSystemDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/creational/singleton/SingletonClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/singleton/SingletonClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,48 +87,20 @@
       <recent name="G:\project\home.designpattern" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="behavioral.template.designhouse" />
+      <recent name="behavioral.statepattern.stateorderpattern.ordermanagement.action" />
+      <recent name="behavioral.statepattern.stateorderpattern.ordermanagement.orderstate" />
+      <recent name="behavioral.statepattern.stateorderpattern.orderstate" />
       <recent name="behavioral.command.filesystemexample.filesystemcommand" />
-      <recent name="behavioral.command.filesystemexample.receiver" />
-      <recent name="behavioral.chainofresponsibility.loggersystem.processorhandler" />
-      <recent name="creational.factorymethod.elctricitybill" />
-      <recent name="behavioral.observer.flipkartnotification.observer" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StandardStateDriver">
+  <component name="RunManager" selected="Application.FileSystemDriver">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
-    </configuration>
-    <configuration name="DriverBuilder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="creational.builder.DriverBuilder" />
-      <module name="designpattern" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="creational.builder.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DriverHandler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="behavioral.chainofresponsibility.DriverHandler" />
-      <module name="designpattern" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="behavioral.chainofresponsibility.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration name="FileSystemClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="behavioral.command.filesystemexample.FileSystemClient" />
@@ -120,13 +116,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoggerDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="behavioral.chainofresponsibility.loggersystem.LoggerDriver" />
+    <configuration name="FileSystemDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="structural.composite.filesystem.FileSystemDriver" />
       <module name="designpattern" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="behavioral.chainofresponsibility.loggersystem.*" />
+          <option name="PATTERN" value="structural.composite.filesystem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HouseDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="behavioral.template.designhouse.HouseDriver" />
+      <module name="designpattern" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="behavioral.template.designhouse.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderManagerDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="behavioral.statepattern.stateorderpattern.OrderManagerDriver" />
+      <module name="designpattern" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="behavioral.statepattern.stateorderpattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -186,19 +210,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.FileSystemDriver" />
       <item itemvalue="Application.FileSystemClient" />
+      <item itemvalue="Application.HouseDriver" />
+      <item itemvalue="Application.OrderManagerDriver" />
       <item itemvalue="Application.StandardStateDriver" />
-      <item itemvalue="Application.DriverHandler" />
-      <item itemvalue="Application.LoggerDriver" />
-      <item itemvalue="Application.DriverBuilder" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FileSystemDriver" />
+        <item itemvalue="Application.HouseDriver" />
+        <item itemvalue="Application.OrderManagerDriver" />
         <item itemvalue="Application.StandardStateDriver" />
         <item itemvalue="Application.FileSystemClient" />
-        <item itemvalue="Application.LoggerDriver" />
-        <item itemvalue="Application.DriverHandler" />
-        <item itemvalue="Application.DriverBuilder" />
       </list>
     </recent_temporary>
   </component>
@@ -267,6 +291,16 @@
           <url>file://$PROJECT_DIR$/src/behavioral/chainofresponsibility/loggersystem/processorhandler/DebugLogProcessor.java</url>
           <line>12</line>
           <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/behavioral/statepattern/stateorderpattern/OrderManagerDriver.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/behavioral/statepattern/stateorderpattern/OrderManagerDriver.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
