@@ -5,37 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8b10311e-7700-467a-8b61-ee0281420389" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/behavioral/statepattern/stateorderpattern/OrderManagerDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioral/statepattern/stateorderpattern/ordermanagement/ContextInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioral/statepattern/stateorderpattern/ordermanagement/OrderContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioral/statepattern/stateorderpattern/ordermanagement/OrderStage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioral/statepattern/stateorderpattern/ordermanagement/Transition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioral/statepattern/stateorderpattern/ordermanagement/action/Action.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioral/statepattern/stateorderpattern/ordermanagement/action/CreateStateAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioral/statepattern/stateorderpattern/ordermanagement/action/DeliveredStateAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioral/statepattern/stateorderpattern/ordermanagement/action/FulfillmentStateAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioral/statepattern/stateorderpattern/ordermanagement/action/PaymentStateAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioral/statepattern/stateorderpattern/ordermanagement/action/ShipmentStateAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioral/statepattern/stateorderpattern/ordermanagement/orderstate/CreatedState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioral/statepattern/stateorderpattern/ordermanagement/orderstate/DeliveredState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioral/statepattern/stateorderpattern/ordermanagement/orderstate/FailedState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioral/statepattern/stateorderpattern/ordermanagement/orderstate/FulfillmentState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioral/statepattern/stateorderpattern/ordermanagement/orderstate/OrderState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioral/statepattern/stateorderpattern/ordermanagement/orderstate/OrderStateFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioral/statepattern/stateorderpattern/ordermanagement/orderstate/PaymentState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioral/statepattern/stateorderpattern/ordermanagement/orderstate/ShipmentState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioral/template/TemplateDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioral/template/designhouse/GlassHouseTemplate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioral/template/designhouse/HouseDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioral/template/designhouse/HouseTemplate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioral/template/designhouse/WoodenHouseTemplate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structural/composite/CompositeDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structural/composite/filesystem/Directory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structural/composite/filesystem/File.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structural/composite/filesystem/FileSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structural/composite/filesystem/FileSystemDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural/facade/OrderFacade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural/facade/restaurantOrderSystem/FoodOrderSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural/facade/restaurantOrderSystem/KitchenSubsystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural/facade/restaurantOrderSystem/WaiterSubsSystem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/behavioral/visitor/creditcardandoffers/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/behavioral/visitor/creditcardandoffers/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/behavioral/visitor/creditcardandoffers/offers/GasOfferVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/behavioral/visitor/creditcardandoffers/offers/GasOfferVisitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/behavioral/visitor/creditcardandoffers/offers/HotelOfferVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/behavioral/visitor/creditcardandoffers/offers/HotelOfferVisitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/behavioral/visitor/creditcardandoffers/offers/OfferVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/behavioral/visitor/creditcardandoffers/offers/OfferVisitor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/creational/singleton/SingletonClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/singleton/SingletonClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/structural/adaptor/driversadaptor/ChromeDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural/adapter/driversadapter/ChromeDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/structural/adaptor/driversadaptor/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural/adapter/driversadapter/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/structural/adaptor/driversadaptor/FirefoxDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural/adapter/driversadapter/FirefoxDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/structural/adaptor/driversadaptor/IEDriverAdaptee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural/adapter/driversadapter/IEDriverAdaptee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/structural/adaptor/driversadaptor/WebDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural/adapter/driversadapter/WebDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/structural/adaptor/driversadaptor/WebDriverAdaptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural/adapter/driversadapter/WebDriverAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/structural/adaptor/mobileadaptor/AdaptorDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural/adapter/mobileadapter/AdaptorDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/structural/adaptor/mobileadaptor/Socket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural/adapter/mobileadapter/Socket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/structural/adaptor/mobileadaptor/SocketAdaptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural/adapter/mobileadapter/SocketAdaptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/structural/adaptor/mobileadaptor/SocketAdaptorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural/adapter/mobileadapter/SocketAdaptorImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/structural/adaptor/mobileadaptor/Volts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural/adapter/mobileadapter/Volts.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +63,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/projects/LLD/designpattern&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/projects/HandsOnProject/rewardsystem&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
@@ -94,7 +84,7 @@
       <recent name="behavioral.command.filesystemexample.filesystemcommand" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FileSystemDriver">
+  <component name="RunManager" selected="Application.PizzaDriver">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -102,13 +92,13 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
     </configuration>
-    <configuration name="FileSystemClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="behavioral.command.filesystemexample.FileSystemClient" />
+    <configuration name="Driver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="behavioral.visitor.creditcardandoffers.Driver" />
       <module name="designpattern" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="behavioral.command.filesystemexample.*" />
+          <option name="PATTERN" value="behavioral.visitor.creditcardandoffers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,13 +134,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderManagerDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="behavioral.statepattern.stateorderpattern.OrderManagerDriver" />
+    <configuration name="OrderFacade" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="structural.facade.OrderFacade" />
       <module name="designpattern" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="behavioral.statepattern.stateorderpattern.*" />
+          <option name="PATTERN" value="structural.facade.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,13 +148,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StandardStateDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="behavioral.statepattern.standard.StandardStateDriver" />
+    <configuration name="PizzaDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="structural.decorator.pizzadecorator.PizzaDriver" />
       <module name="designpattern" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="behavioral.statepattern.standard.*" />
+          <option name="PATTERN" value="structural.decorator.pizzadecorator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -210,19 +200,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.PizzaDriver" />
+      <item itemvalue="Application.Driver" />
+      <item itemvalue="Application.OrderFacade" />
       <item itemvalue="Application.FileSystemDriver" />
-      <item itemvalue="Application.FileSystemClient" />
       <item itemvalue="Application.HouseDriver" />
-      <item itemvalue="Application.OrderManagerDriver" />
-      <item itemvalue="Application.StandardStateDriver" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PizzaDriver" />
+        <item itemvalue="Application.Driver" />
+        <item itemvalue="Application.OrderFacade" />
         <item itemvalue="Application.FileSystemDriver" />
         <item itemvalue="Application.HouseDriver" />
-        <item itemvalue="Application.OrderManagerDriver" />
-        <item itemvalue="Application.StandardStateDriver" />
-        <item itemvalue="Application.FileSystemClient" />
       </list>
     </recent_temporary>
   </component>

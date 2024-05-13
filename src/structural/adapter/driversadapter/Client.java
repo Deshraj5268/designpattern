@@ -1,4 +1,4 @@
-package structural.adaptor.driversadaptor;
+package structural.adapter.driversadapter;
 
 public class Client {
 
@@ -12,9 +12,9 @@ public class Client {
         ieDriverAdaptee.findDriver();
         ieDriverAdaptee.startDriver();
 
-        WebDriver webDriverAdaptor = new WebDriverAdaptor(ieDriverAdaptee);
-        webDriverAdaptor.getDriver();
-        webDriverAdaptor.clickDriver();
+        WebDriver webDriverAdapter = new WebDriverAdapter(ieDriverAdaptee);
+        webDriverAdapter.getDriver();
+        webDriverAdapter.clickDriver();
 
     }
 }

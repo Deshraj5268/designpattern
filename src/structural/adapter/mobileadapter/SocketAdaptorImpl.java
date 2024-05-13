@@ -1,4 +1,4 @@
-package structural.adaptor.mobileadaptor;
+package structural.adapter.mobileadapter;
 
 public class SocketAdaptorImpl extends Socket implements SocketAdaptor {
 

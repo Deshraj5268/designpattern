@@ -1,10 +1,10 @@
-package structural.adaptor.driversadaptor;
+package structural.adapter.driversadapter;
 
-public class WebDriverAdaptor implements WebDriver {
+public class WebDriverAdapter implements WebDriver {
 
     private IEDriverAdaptee ieDriverAdaptee;
 
-    public WebDriverAdaptor(IEDriverAdaptee ieDriverAdaptee) {
+    public WebDriverAdapter(IEDriverAdaptee ieDriverAdaptee) {
         this.ieDriverAdaptee = ieDriverAdaptee;
     }
 

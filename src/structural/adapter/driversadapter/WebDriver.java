@@ -1,4 +1,4 @@
-package structural.adaptor.driversadaptor;
+package structural.adapter.driversadapter;
 
 public interface WebDriver { // target interface which client will use
 

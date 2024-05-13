@@ -1,4 +1,4 @@
-package structural.adaptor.driversadaptor;
+package structural.adapter.driversadapter;
 
 public class ChromeDriver implements WebDriver {
     @Override

@@ -19,6 +19,8 @@ public class Driver {
         CreditCard goldCreditCard = new GoldCreditCard(); // can used factor pattern
 
         bronzeCreditCard.accept(hotelOfferVisitor);
+        bronzeCreditCard.accept(gasOfferVisitor);
+
         goldCreditCard.accept(gasOfferVisitor);
     }
 }
