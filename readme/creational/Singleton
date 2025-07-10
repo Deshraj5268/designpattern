@@ -1,0 +1,9 @@
+scenarios need to cover
+
+| Threat         | Solution                         |
+| -------------- | -------------------------------- |
+| Multithreading | Double-Checked Locking or Holder |
+| Serialization  | `readResolve()` or Enum          |
+| Cloning        | Override `clone()` or use Enum   |
+| Reflection     | Constructor guard or use Enum    |
+| Inheritance    | Make class `final` or use Enum   |
