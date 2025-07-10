@@ -2,6 +2,8 @@ package behavioral.statepattern.stateorderpattern.ordermanagement;
 
 public class Transition {
 
+
+    // could use factory pattern
     public void findNextState(OrderContext orderContext){
         if(OrderStage.CREATE_STAGE.equals(orderContext.getCurrentOrderStage())){
             orderContext.setCurrentOrderStage(OrderStage.PAYMENT_STAGE);

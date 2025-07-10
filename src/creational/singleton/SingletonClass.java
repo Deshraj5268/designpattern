@@ -8,16 +8,16 @@ import java.io.Serializable;
 * */
 public class SingletonClass implements Cloneable,Serializable {
 
+    static int i=0;
     private  static volatile  SingletonClass singletonClass; //changes visible to everywhere reordering issues and cache issue(L1 caching)
 
     // [ cpu order -  allocate memory , obj=memPointer , memPointer=initialization() can return dummy initialize object
     //-  allocate memory ,memPointer=initialization() , obj=memPointer//  ]
     private SingletonClass()throws Exception{
-        if(singletonClass == null){
-            new SingletonClass();
-        }else{
+        if(singletonClass != null){
             throw new Exception("prevent from reflection ");
         }
+        System.out.println("singleton object is being created "+i++);
     }
 
     public static SingletonClass getSingletonObject() throws Exception{
@@ -26,6 +26,7 @@ public class SingletonClass implements Cloneable,Serializable {
             synchronized (SingletonClass.class) {//class level locking
                 if (singletonClass == null) {
                     singletonClass = new SingletonClass(); // lazy loading
+                    System.out.println("object is created ");
                 }
             }
         }
@@ -40,6 +41,6 @@ public class SingletonClass implements Cloneable,Serializable {
     //prevent from cloning
     @Override
     protected Object clone() throws CloneNotSupportedException{
-        throw new CloneNotSupportedException();
+        throw new CloneNotSupportedException("Singleton cannot be cloned");
     }
 }

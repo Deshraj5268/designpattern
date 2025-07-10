@@ -5,27 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8b10311e-7700-467a-8b61-ee0281420389" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/structural/facade/OrderFacade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structural/facade/restaurantOrderSystem/FoodOrderSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structural/facade/restaurantOrderSystem/KitchenSubsystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structural/facade/restaurantOrderSystem/WaiterSubsSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme/creational/Singleton" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/behavioral/visitor/creditcardandoffers/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/behavioral/visitor/creditcardandoffers/Driver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/behavioral/visitor/creditcardandoffers/offers/GasOfferVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/behavioral/visitor/creditcardandoffers/offers/GasOfferVisitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/behavioral/visitor/creditcardandoffers/offers/HotelOfferVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/behavioral/visitor/creditcardandoffers/offers/HotelOfferVisitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/behavioral/visitor/creditcardandoffers/offers/OfferVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/behavioral/visitor/creditcardandoffers/offers/OfferVisitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/behavioral/statepattern/stateorderpattern/ordermanagement/Transition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/behavioral/statepattern/stateorderpattern/ordermanagement/Transition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/creational/singleton/DriverSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/singleton/DriverSingleton.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/creational/singleton/SingletonClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/singleton/SingletonClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structural/adaptor/driversadaptor/ChromeDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural/adapter/driversadapter/ChromeDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structural/adaptor/driversadaptor/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural/adapter/driversadapter/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structural/adaptor/driversadaptor/FirefoxDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural/adapter/driversadapter/FirefoxDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structural/adaptor/driversadaptor/IEDriverAdaptee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural/adapter/driversadapter/IEDriverAdaptee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structural/adaptor/driversadaptor/WebDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural/adapter/driversadapter/WebDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structural/adaptor/driversadaptor/WebDriverAdaptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural/adapter/driversadapter/WebDriverAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structural/adaptor/mobileadaptor/AdaptorDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural/adapter/mobileadapter/AdaptorDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structural/adaptor/mobileadaptor/Socket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural/adapter/mobileadapter/Socket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structural/adaptor/mobileadaptor/SocketAdaptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural/adapter/mobileadapter/SocketAdaptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structural/adaptor/mobileadaptor/SocketAdaptorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural/adapter/mobileadapter/SocketAdaptorImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structural/adaptor/mobileadaptor/Volts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural/adapter/mobileadapter/Volts.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +47,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/projects/HandsOnProject/rewardsystem&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/projects/mircroservice&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
@@ -84,7 +68,7 @@
       <recent name="behavioral.command.filesystemexample.filesystemcommand" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PizzaDriver">
+  <component name="RunManager" selected="Application.DriverSingleton">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -106,13 +90,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileSystemDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="structural.composite.filesystem.FileSystemDriver" />
+    <configuration name="DriverSingleton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="creational.singleton.DriverSingleton" />
       <module name="designpattern" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="structural.composite.filesystem.*" />
+          <option name="PATTERN" value="creational.singleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,13 +104,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HouseDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="behavioral.template.designhouse.HouseDriver" />
+    <configuration name="LoggerDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="behavioral.chainofresponsibility.loggersystem.LoggerDriver" />
       <module name="designpattern" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="behavioral.template.designhouse.*" />
+          <option name="PATTERN" value="behavioral.chainofresponsibility.loggersystem.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -200,19 +184,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.DriverSingleton" />
+      <item itemvalue="Application.LoggerDriver" />
       <item itemvalue="Application.PizzaDriver" />
       <item itemvalue="Application.Driver" />
       <item itemvalue="Application.OrderFacade" />
-      <item itemvalue="Application.FileSystemDriver" />
-      <item itemvalue="Application.HouseDriver" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DriverSingleton" />
+        <item itemvalue="Application.LoggerDriver" />
         <item itemvalue="Application.PizzaDriver" />
         <item itemvalue="Application.Driver" />
         <item itemvalue="Application.OrderFacade" />
-        <item itemvalue="Application.FileSystemDriver" />
-        <item itemvalue="Application.HouseDriver" />
       </list>
     </recent_temporary>
   </component>
