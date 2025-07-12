@@ -1,0 +1,13 @@
+| Use Case                                          | Description                                                                     |
+| ------------------------------------------------- | ------------------------------------------------------------------------------- |
+| 🔄 **Decoupling object creation from usage**      | Clients don't need to know how objects are created, only how to use them.       |
+| 🧰 **When object creation is complex**            | If creating an object involves many steps or configurations.                    |
+| 🧩 **Multiple implementations of an interface**   | Choose which implementation to return at runtime based on input or environment. |
+| 🔧 **When classes are decided at runtime**        | Useful in plugin systems, configuration-based setups, or strategy selection.    |
+| 🚀 **Improving code maintainability and testing** | Replaces `new` keyword with factories, making mocking and testing easier.       |
+
+
+
+Real example
+1. Used in notification system where notification type SMS, EMAIL , whatsApp
+2. Used in landing system where we need to select order state (cartState, LMS_State etc)

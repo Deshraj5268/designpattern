@@ -1,0 +1,26 @@
+When an object has many optional fields or a complex construction process,
+using a constructor with many parameters becomes hard to read and maintain (telescoping constructors).
+
+
+Key Benefits
+Handles optional parameters cleanly
+Makes object construction readable and maintainable
+Supports immutability
+Separates the construction logic from the actual object
+
+| Use Case                         | Why Builder Works Well                                    |
+| -------------------------------- | --------------------------------------------------------- |
+| HTTP clients                     | Many optional headers/body/settings                       |
+| DTOs in layered architecture     | Optional fields, immutability                             |
+| ORM/Query builders               | Step-by-step criteria definition ( .select(quer).where(con)                          |
+| UI layout engines                | Multiple, nested, conditional elements                    |
+| Domain model creation with rules | Builder enforces valid state and construction constraints |
+
+
+| Situation                                   | Description                                                             |
+| ------------------------------------------- | ----------------------------------------------------------------------- |
+| ✅ Too many constructor parameters           | Avoids telescoping constructors like `new User("John", null, 25, null)` |
+| ✅ Complex object creation                   | When object construction involves multiple steps                        |
+| ✅ Immutable objects                         | Especially when fields are final and can't be changed                   |
+| ✅ Optional or conditional fields            | Not all parameters are mandatory                                        |
+| ✅ Want readable, fluent object construction | Improves code clarity, chaining with `.setX()` methods                  |
