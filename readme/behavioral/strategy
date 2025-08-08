@@ -1,0 +1,5 @@
+Payment processing → CreditCard vs PayPal vs UPI.
+Compression → ZIP vs GZIP vs LZ4.
+Search algorithms → Binary Search vs Linear Search depending on data size.
+Routing → Dijkstra vs A* depending on graph type.
+Data serialization → JSON vs XML vs Protobuf.
