@@ -1,0 +1,24 @@
+Intent:
+Allow an object to change its behavior when its internal state changes, appearing as if it changed its class.
+
+Key Idea: State transitions are tracked; the object delegates behavior to its current state.
+
+Real-World Use Cases:
+ATM Machine: NoCardState, HasCardState, PinEnteredState, OutOfServiceState.
+Order Processing: OrderPlaced, Shipped, Delivered, Cancelled.
+Document Workflow: Draft → Moderation → Published.
+Traffic Light System: Red → Green → Yellow.
+Media Player: Playing → Paused → Stopped.
+
+When to Use:
+Object behavior depends on its current state.
+State transitions are complex and tightly coupled with behavior changes.
+
+
+| Aspect         | Strategy Pattern                 | State Pattern                           |
+| -------------- | -------------------------------- | --------------------------------------- |
+| Purpose        | Swap algorithms dynamically      | Change behavior based on internal state |
+| State tracking | No                               | Yes                                     |
+| Change trigger | Client chooses strategy          | State object decides next state         |
+| Example        | Algorithm method selection         | Order Processing                      |
+| Main Benefit   | Decouples algorithm from context | Organizes state-dependent behavior      |

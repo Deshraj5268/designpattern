@@ -1,5 +1,14 @@
+Intent: Encapsulate interchangeable algorithms behind a common interface so you can swap them at runtime.
+
+Key Idea: Object’s behavior changes by switching the algorithm, but state transitions are not tracked.
+
+Real-World Use Cases:
 Payment processing → CreditCard vs PayPal vs UPI.
 Compression → ZIP vs GZIP vs LZ4.
 Search algorithms → Binary Search vs Linear Search depending on data size.
 Routing → Dijkstra vs A* depending on graph type.
 Data serialization → JSON vs XML vs Protobuf.
+
+When to Use:
+Multiple algorithms exist for a task.
+You want to make algorithm selection pluggable without if-else chains.
