@@ -5,15 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8b10311e-7700-467a-8b61-ee0281420389" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/creational/singleton/SingletonEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/creational/singleton/example/ConnectionPool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/creational/singleton/example/ConnectionPoolDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/creational/singleton/example/ConnectionPoolSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme/behavioral/Visitor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioral/template/game/Football.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioral/template/game/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioral/template/game/GameDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creational/objectpoolpattern/DBConnPoolManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creational/objectpoolpattern/DriverManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creational/objectpoolpattern/MyDBConncetion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creational/objectpoolpattern/blockingqueue/DBConnPoolManagerBQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creational/singleton/innerclassway/SingletonByInnerClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme/creational/Singleton" beforeDir="false" afterPath="$PROJECT_DIR$/readme/creational/Singleton" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/creational/singleton/DriverSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/singleton/DriverSingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme/behavioral/chainofresponsability" beforeDir="false" afterPath="$PROJECT_DIR$/readme/behavioral/chainofresponsability" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/behavioral/chainofresponsibility/loggersystem/LoggerDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/behavioral/chainofresponsibility/loggersystem/LoggerDriver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/creational/singleton/SingletonClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/singleton/SingletonClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/creational/singleton/SingletonEarlyInitialization.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +27,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -72,7 +76,7 @@
       <recent name="behavioral.command.filesystemexample.filesystemcommand" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ConnectionPoolDriver">
+  <component name="RunManager" selected="Application.DriverManager">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -80,13 +84,13 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
     </configuration>
-    <configuration name="ConnectionPoolDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="creational.singleton.example.ConnectionPoolDriver" />
+    <configuration name="DriverManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="creational.objectpoolpattern.DriverManager" />
       <module name="designpattern" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="creational.singleton.example.*" />
+          <option name="PATTERN" value="creational.objectpoolpattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,27 +98,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Driver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="behavioral.visitor.creditcardandoffers.Driver" />
+    <configuration name="GameDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="behavioral.template.game.GameDriver" />
       <module name="designpattern" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="behavioral.visitor.creditcardandoffers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DriverSingleton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="creational.singleton.DriverSingleton" />
-      <module name="designpattern" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="creational.singleton.*" />
+          <option name="PATTERN" value="behavioral.template.game.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,13 +126,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PizzaDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="structural.decorator.pizzadecorator.PizzaDriver" />
+    <configuration name="ObserverDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="behavioral.observer.ObserverDriver" />
       <module name="designpattern" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="structural.decorator.pizzadecorator.*" />
+          <option name="PATTERN" value="behavioral.observer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SortStrategyDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="behavioral.strategy.sortingstrategy.SortStrategyDriver" />
+      <module name="designpattern" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="behavioral.strategy.sortingstrategy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -188,19 +192,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ConnectionPoolDriver" />
-      <item itemvalue="Application.DriverSingleton" />
+      <item itemvalue="Application.DriverManager" />
+      <item itemvalue="Application.GameDriver" />
       <item itemvalue="Application.LoggerDriver" />
-      <item itemvalue="Application.PizzaDriver" />
-      <item itemvalue="Application.Driver" />
+      <item itemvalue="Application.ObserverDriver" />
+      <item itemvalue="Application.SortStrategyDriver" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ConnectionPoolDriver" />
-        <item itemvalue="Application.DriverSingleton" />
+        <item itemvalue="Application.DriverManager" />
+        <item itemvalue="Application.GameDriver" />
+        <item itemvalue="Application.ObserverDriver" />
         <item itemvalue="Application.LoggerDriver" />
-        <item itemvalue="Application.PizzaDriver" />
-        <item itemvalue="Application.Driver" />
+        <item itemvalue="Application.SortStrategyDriver" />
       </list>
     </recent_temporary>
   </component>
@@ -279,6 +283,16 @@
           <url>file://$PROJECT_DIR$/src/behavioral/statepattern/stateorderpattern/OrderManagerDriver.java</url>
           <line>17</line>
           <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/behavioral/chainofresponsibility/loggersystem/LoggerDriver.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/behavioral/chainofresponsibility/loggersystem/processorhandler/InfoLogProcessor.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -10,7 +10,7 @@ public class LoggerDriver {
     public static void main(String[] args) {
 
         //preparing chain ..
-        LogProcessor logger = new InfoLogProcessor(new DebugLogProcessor(new ErrorLogProcessor(null)));
+        LogProcessor logger = new DebugLogProcessor(new InfoLogProcessor(new ErrorLogProcessor(null))); // need to check terminal condition
 
         logger.log(LogLevel.DEBUG, "debug log line");
         logger.log(LogLevel.ERROR, "Error log line");

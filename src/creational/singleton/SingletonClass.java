@@ -34,6 +34,11 @@ public final class SingletonClass implements Cloneable,Serializable {
     }
 
     //to prevent from serialization while deserialization
+    // @Override : why not used The readResolve() method in Java serialization is not an overridable method
+    // because it is invoked through reflection, not through a polymorphic method dispatch.
+    // It is a special-purpose hook that the deserialization runtime specifically looks for by name and signature.
+    //his design prevents a subclass from accidentally or maliciously changing its superclass's
+    // deserialization behavior, ensuring the integrity of the object graph
     protected Object readResolve(){
         return singletonClass;
     }
